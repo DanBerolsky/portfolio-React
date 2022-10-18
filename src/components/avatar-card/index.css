@@ -1,0 +1,61 @@
+.avatar-card{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: fit-content;
+}
+
+.avatar-card__background-image{
+    position: absolute;
+    width: 100%;
+    height: 21%;
+    z-index: 1;
+    overflow: hidden;
+}
+.avatar-card__background-image img{
+    position: relative;
+    width: 100%;
+}
+
+.avatar-card__img{
+    margin: 35px;
+    max-width: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    z-index: 2;
+}
+
+
+.avatar-card__name{
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.avatar-card__info{
+    font-weight: 600;
+    margin: 0 30px;
+    margin-bottom: 50px;
+    color: #888;
+}
+
+.btn-blue{
+    margin-bottom: 30px;
+}
+
+
+
+
+@media (max-width:990px) {
+    .avatar-card__img{
+        align-self: flex-start;
+    }
+    
+    .avatar-card__name{
+        align-self: flex-start;
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+}
