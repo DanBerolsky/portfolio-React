@@ -4,14 +4,96 @@ import './index.css'
 const Proyects = () => {
     return (
         <div className="proyects-card card">
-            <h5>My proyects</h5>
+            <div className='head-container'>
+                <h5>My proyects</h5>
+                <a href="https://github.com/DanBerolsky?tab=repositories">See all</a>
+            </div>
             <div className='proyects'>
-                <div className='proyects__item'>
-                    <h6 className='item__proyect-name'> Portfolio modelo</h6>
-                    <ion-icon name="git-branch-sharp"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
+                <div className='proyects__item card'>
+                    <div>
+                        <div className='proyects__item-title-container'>
+                            <ion-icon name="folder-open-outline"></ion-icon>
+                            <h6 className='item__proyect-name'> Portfolio modelo</h6>
+                        </div>
+                        <div className='item__proyect-info'><p>AAAaA AaaAAaAAA AAAAAaaaAA aaaaa AAAS SSSss</p></div>
+                    </div>
+                    
+                    <div className='item__proyect-branches'>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <span>000</span>
+                        <ion-icon name="git-branch-sharp"></ion-icon>
+                        <span>000</span>
+                    </div>
+                    
                 </div>
-                
+                <div className='proyects__item card'>
+                    <div>
+                        <div className='proyects__item-title-container'>
+                            <ion-icon name="folder-open-outline"></ion-icon>
+                            <h6 className='item__proyect-name'> Portfolio modelo</h6>
+                        </div>
+                        <div className='item__proyect-info'><p>AAAaA AaaAAaAAA AAAAAaaaAA aaaaa AAAS SSSss</p></div>
+                    </div>
+                    
+                    <div className='item__proyect-branches'>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <span>000</span>
+                        <ion-icon name="git-branch-sharp"></ion-icon>
+                        <span>000</span>
+                    </div>
+                    
+                </div>
+                <div className='proyects__item card'>
+                    <div>
+                        <div className='proyects__item-title-container'>
+                            <ion-icon name="folder-open-outline"></ion-icon>
+                            <h6 className='item__proyect-name'> Portfolio modelo</h6>
+                        </div>
+                        <div className='item__proyect-info'><p>AAAaA AaaAAaAAA AAAAAaaaAA aaaaa AAAS SSSss</p></div>
+                    </div>
+                    
+                    <div className='item__proyect-branches'>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <span>000</span>
+                        <ion-icon name="git-branch-sharp"></ion-icon>
+                        <span>000</span>
+                    </div>
+                    
+                </div>
+                <div className='proyects__item card'>
+                    <div>
+                        <div className='proyects__item-title-container'>
+                            <ion-icon name="folder-open-outline"></ion-icon>
+                            <h6 className='item__proyect-name'> Portfolio modelo</h6>
+                        </div>
+                        <div className='item__proyect-info'><p>AAAaA AaaAAaAAA AAAAAaaaAA aaaaa AAAS SSSss</p></div>
+                    </div>
+                    
+                    <div className='item__proyect-branches'>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <span>000</span>
+                        <ion-icon name="git-branch-sharp"></ion-icon>
+                        <span>000</span>
+                    </div>
+                    
+                </div>
+                <div className='proyects__item card'>
+                    <div>
+                        <div className='proyects__item-title-container'>
+                            <ion-icon name="folder-open-outline"></ion-icon>
+                            <h6 className='item__proyect-name'> Portfolio modelo</h6>
+                        </div>
+                        <div className='item__proyect-info'><p>AAAaA AaaAAaAAA AAAAAaaaAA aaaaa AAAS SSSss</p></div>
+                    </div>
+                    
+                    <div className='item__proyect-branches'>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <span>000</span>
+                        <ion-icon name="git-branch-sharp"></ion-icon>
+                        <span>000</span>
+                    </div>
+                    
+                </div>
             </div>
             
         </div>

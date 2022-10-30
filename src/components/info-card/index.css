@@ -1,7 +1,7 @@
 .info-card{
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 5px 30px;
     justify-content: space-around;
     grid-row: 2;
     min-height: 250px;
@@ -19,7 +19,7 @@
     flex-grow: 5;
     display: flex;
     justify-content: space-between;
-    color: #000;
+    color: var(--text-secondary-color);
     font-weight: 600;
     flex-wrap: wrap;
 }
@@ -31,13 +31,14 @@
 .info-card__item div:last-child{
     flex-grow: 1;
     font-size: 14px;
+    justify-content: end;
 }
 
 ion-icon{
     flex-shrink: 1;
     font-size: 20px;
     margin-right: 15px;
-    color: rgb(96, 96, 96);
+    color: var(--text-primary-color);
 }
 
 

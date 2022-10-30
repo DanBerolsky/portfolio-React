@@ -1,3 +1,14 @@
+:root{
+   --card-color: #fff;
+   --body-color: #e5e7eb;
+   --text-primary-color:#000;
+   --text-secondary-color:#777;
+}
+
+a{
+    text-decoration: none;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +20,7 @@
     position: relative;
     min-height: 100vh;
     padding: 2rem;
-    background-color: #e5e7eb;
+    background-color: var(--body-color);
     display: grid;
     grid-template-columns: repeat(3,minmax(100px, 1fr));
     grid-template-rows: auto;
@@ -26,7 +37,7 @@
 }
 
 .btn-blue{
-    background-color: #fff;
+    background-color: transparent;
     border: 1px solid rgba(145, 145, 255, 0.648);
     padding: 10px;
     border-radius: 3px;
@@ -41,6 +52,7 @@
 
 .card{
     border-radius: .3rem;
-    background-color: #fff;
+    background-color: var(--card-color);
     box-shadow: 0 0 20px -4px rgb(0 0 0 / .1), 0 0 6px -4px rgb(0 0 0 / .1);
+    overflow: hidden;
 }

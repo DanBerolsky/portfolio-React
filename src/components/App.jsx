@@ -5,6 +5,7 @@ import Education from './Education-card'
 import Info from './info-card'
 import Proyects from './proyects-card'
 import TechStack from './tech-stack-card'
+import SwiperCard from './swiper-card'
 export function App() {
   return (
     <div className='mainConteiner'>
@@ -13,6 +14,7 @@ export function App() {
       <Proyects/>
       <Education/>
       <TechStack/>
+      <SwiperCard/>
     </div>
   )
 }
