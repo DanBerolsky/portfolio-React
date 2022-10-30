@@ -56,6 +56,7 @@
     width: fit-content;
     height: fit-content;
     padding: 0 15px;
+    color: var(--text-secondary-color);
 }
 
 .proyects__item-title-container{
@@ -79,6 +80,7 @@
     margin: 0 10px 0 4px;
     position: relative;
     top: -3px;
+    color: var(--text-secondary-color);
 }
 
 
