@@ -20,6 +20,7 @@ const SwiperCard = () => {
         <Swiper 
           spaceBetween={30}
           centeredSlides={true}
+          loop={true}
           autoplay={{
             delay: 4000,
             disableOnInteraction: false,
@@ -27,6 +28,8 @@ const SwiperCard = () => {
           style={{
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
+            "--swiper-navigation-size" : "20px",
+            "--swiper-pagination-bullet-inactive-color":"#fff"
           }}
           speed={600}
           parallax={true}
@@ -43,7 +46,7 @@ const SwiperCard = () => {
           className="parallax-bg"
           style={{
             "backgroundImage":
-              "url(https://swiperjs.com/demos/images/nature-1.jpg)",
+              "url(/background-swiper.jpg)",
           }}
           data-swiper-parallax="-23%"
         ></div>

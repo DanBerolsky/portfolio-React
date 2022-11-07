@@ -32,6 +32,20 @@
     flex-grow: 1;
     font-size: 14px;
     justify-content: end;
+    position: relative;
+    display: flex;
+    gap: 5px;
+}
+
+.contact-link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.info-card__item div:last-child ion-icon{
+    margin: 0;
 }
 
 ion-icon{
@@ -39,10 +53,11 @@ ion-icon{
     font-size: 20px;
     margin-right: 15px;
     color: var(--text-primary-color);
+    cursor: pointer;
 }
 
 
-@media (max-width:990px) {
+@media (max-width:1130px) {
 
     .info-card{
         height: 310px;

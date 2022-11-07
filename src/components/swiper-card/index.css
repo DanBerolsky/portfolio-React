@@ -1,51 +1,68 @@
 .swiper-card{
-    grid-column: 2/4;
-    grid-row: 1;
-    position: relative;
+  grid-column: 2/4;
+  grid-row: 1;
+  position: relative;
 }
 
 .swiper {
-    width: 100%;
-    height: 100%;
-    background: #000;
-  }
-  
-  .swiper-slide {
-    font-size: 18px;
-    color: #fff;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 40px 60px;
-  }
-  
-  .parallax-bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 130%;
-    height: 100%;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .swiper-slide .title {
-    font-size: 41px;
-    font-weight: 300;
-  }
-  
-  .swiper-slide .subtitle {
-    font-size: 21px;
-  }
-  
-  .swiper-slide .text {
-    font-size: 14px;
-    max-width: 400px;
-    line-height: 1.3;
-  }
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
 
 
-@media (max-width:990px) {
+.swiper-button-prev, .swiper-button-next {
+  background: rgba(255, 255, 255, 0.326);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover{
+  background: var(--body-color);
+}
+.swiper-button-prev::after,.swiper-button-next::after {
+  color: var(--light-blue);
+}
+
+.swiper-button-prev:active,.swiper-button-next:active {
+  outline: 5px ridge var(--light-blue);
+}
+
+@media (max-width:1130px) {
   .swiper-card{
       grid-column: 1 !important;
       grid-row: 5 !important;

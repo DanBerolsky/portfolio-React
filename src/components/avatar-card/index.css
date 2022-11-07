@@ -45,6 +45,9 @@
 .btn-blue{
     margin-bottom: 30px;
 }
+.btn-blue:active {
+    background-color:rgba(145, 145, 255, 0.648);
+}
 
 .avatar-card__background-image ion-icon{
     position: absolute;
@@ -72,7 +75,7 @@
     color: var(--text-primary-color);
 }
 
-@media (max-width:990px) {
+@media (max-width:1130px) {
     .avatar-card__img{
         align-self: flex-start;
     }

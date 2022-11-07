@@ -2,7 +2,8 @@
    --card-color: #fff;
    --body-color: #e5e7eb;
    --text-primary-color:#000;
-   --text-secondary-color:#777;
+   --text-secondary-color:rgb(44, 44, 44);
+   --light-blue:rgb(76, 38, 246);
 }
 
 a{
@@ -29,7 +30,7 @@ a{
     gap: 10px;
 }
 
-@media (max-width:990px) {
+@media (max-width:1130px) {
     .mainConteiner{
         grid-template-columns: repeat(1, 100%);
         grid-template-rows: repeat(auto-fit,minmax(100px, max-content));
@@ -46,7 +47,7 @@ a{
 
 .btn-blue:hover{
     background-color: rgba(69, 69, 255, 0.196);
-    border: 1px solid rgb(76, 38, 246);
+    border: 1px solid var(--light-blue);
 }
 
 

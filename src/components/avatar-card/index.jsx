@@ -38,9 +38,9 @@ const Avatar = () => {
           <img className='avatar-card__img' src="./img.jpeg" alt="Dan" />
           <h5 className='avatar-card__name'>Dan Berolsky</h5>
           <div className='avatar-card__info'>
-          ⚡ Software Engineer | Open Source Enthusiast | PHP | Laravel | JavaScript | React | Node.js ⚡
+          🚀 Software Engineer | Open Source Enthusiast | Vue.js | Python | Kotlin | AWS | React | Node.js 🚀
           </div>
-          <a href='https://docs.google.com/document/d/1PG4u9vrv6TqTjI10hRkU_3yAXUwxDh3vfU2pxH-3O_g/edit?usp=share_link' className='btn-blue btn-resume'>
+          <a href='../assets/{Currículum Dan Berolsky.pdf}' className='btn-blue btn-resume' download={"Currículum Dan Berolsky.pdf"}>
             <ion-icon name="download-outline"></ion-icon> <span>Download Resume</span>
           </a>
       </div>

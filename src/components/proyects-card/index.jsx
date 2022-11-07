@@ -5,7 +5,7 @@ const Proyects = () => {
     return (
         <div className="proyects-card card">
             <div className='head-container'>
-                <h5>My proyects</h5>
+                <h5>My GitHub proyects</h5>
                 <a href="https://github.com/DanBerolsky?tab=repositories">See all</a>
             </div>
             <div className='proyects'>
