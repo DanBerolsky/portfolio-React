@@ -19,8 +19,9 @@
 }
 
 .head-container a{
-    margin-right: 30px;
+    margin-right: 1.39vh;
     color: var(--text-secondary-color);
+    flex-basis: 72px;
 }
 
 .proyects{

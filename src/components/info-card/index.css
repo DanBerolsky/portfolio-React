@@ -1,7 +1,7 @@
 .info-card{
     display: flex;
     flex-direction: column;
-    padding: 5px 30px;
+    padding: 5px 3vh;
     justify-content: space-around;
     grid-row: 2;
     min-height: 250px;
@@ -13,29 +13,31 @@
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1vh;
 }
-.info-card__item div{
-    flex-shrink: 5;
-    flex-grow: 5;
-    display: flex;
-    justify-content: space-between;
+.info-card__item-container{
     color: var(--text-secondary-color);
     font-weight: 600;
-    flex-wrap: wrap;
+    flex-grow: 2;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.info-card__item div:first-child{
-    flex-grow: 5;
-    font-size: 14px;
+.info-card__item-container div:first-child{
+    font-size: 1.9vh;
     
 }
-.info-card__item div:last-child{
-    flex-grow: 1;
-    font-size: 14px;
+
+.info-card__item-container div:last-child {
+    font-size: 1.9vh;
     justify-content: end;
     position: relative;
     display: flex;
     gap: 5px;
+    
 }
+
 
 .contact-link{
     position: absolute;
@@ -46,12 +48,13 @@
 
 .info-card__item div:last-child ion-icon{
     margin: 0;
+    font-size: 1.8vh;
+    align-self: center;
 }
 
 ion-icon{
     flex-shrink: 1;
-    font-size: 20px;
-    margin-right: 15px;
+    font-size: 2.7vh;
     color: var(--text-primary-color);
     cursor: pointer;
 }

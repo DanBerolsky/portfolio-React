@@ -80,6 +80,11 @@
         align-self: flex-start;
     }
     
+    .avatar-card__background-image ion-icon{
+        right: 20px;
+        left: auto;
+    }
+
     .avatar-card__name{
         align-self: flex-start;
         margin-left: 30px;
