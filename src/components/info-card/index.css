@@ -13,7 +13,7 @@
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1vh;
+    gap: .7vh;
 }
 .info-card__item-container{
     color: var(--text-secondary-color);
