@@ -54,7 +54,7 @@
 
 ion-icon{
     flex-shrink: 1;
-    font-size: 2.7vh;
+    font-size: 2.5vh;
     color: var(--text-primary-color);
     cursor: pointer;
 }
