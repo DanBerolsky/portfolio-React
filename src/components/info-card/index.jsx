@@ -2,6 +2,14 @@ import React from 'react'
 import './index.css'
 
 const Info = () => {
+    function goToGmail(){
+        let url = "https://mail.google.com/mail/?view=cm&fs=1&to=berolskydan@gmail.com"
+        if ("ontouchstart" in document.documentElement) {
+            url = "mailto:berolskydan@gmail.com"
+        }
+        return url
+    }
+
     return (
         <div className="info-card card">
             <div className='info-card__item'>
@@ -16,7 +24,7 @@ const Info = () => {
                 <div className='info-card__item-container'>
                     <div>Github :</div>
                     <div>
-                        <a className='contact-link' href="https://github.com/DanBerolsky"></a>
+                        <a className='contact-link' href="https://github.com/DanBerolsky"><span>&nbsp;</span></a>
                         <ion-icon className='link-icon' name="link-outline"></ion-icon>
                         <div>DanBerolsky</div>
                     </div>
@@ -27,7 +35,7 @@ const Info = () => {
                 <div className='info-card__item-container'>
                     <div>LinkedIn :</div>
                     <div>
-                        <a className='contact-link' href="https://www.linkedin.com/in/dan-berolsky/"></a>
+                        <a className='contact-link' href="https://www.linkedin.com/in/dan-berolsky/"><span>&nbsp;</span></a>
                         <ion-icon name="link-outline" className='link-icon'></ion-icon>
                         <div>Dan Berolsky</div>
                     </div>
@@ -45,7 +53,7 @@ const Info = () => {
                 <div className='info-card__item-container'>
                     <div>Email :</div>
                     <div>
-                        <a className='contact-link' href="mailto:berolskydan@gmail.com"></a>
+                        <a className='contact-link' href={goToGmail()}><span>&nbsp;</span></a>
                         <ion-icon className='link-icon' name="link-outline"></ion-icon>
                         <div>berolskydan@gmail.com</div>
                     </div>

@@ -31,7 +31,7 @@
 
 .info-card__item-container div:last-child {
     font-size: 1.9vh;
-    justify-content: end;
+    justify-content: flex-end;
     position: relative;
     display: flex;
     gap: 5px;

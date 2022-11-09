@@ -38,7 +38,7 @@ const Avatar = () => {
           <img className='avatar-card__img' src="./img.jpeg" alt="Dan" />
           <h5 className='avatar-card__name'>Dan Berolsky</h5>
           <div className='avatar-card__info'>
-          🚀 Software Engineer | Open Source Enthusiast | Vue.js | Python | Kotlin | AWS | React | Node.js 🚀
+          <span role="img" aria-labelledby="cohete">🚀</span> Software Engineer | Open Source Enthusiast | Vue.js | Python | Kotlin | AWS | React | Node.js <span role="img" aria-labelledby="cohete">🚀</span>
           </div>
           <a href='../assets/{Currículum Dan Berolsky.pdf}' className='btn-blue btn-resume' download={"Currículum Dan Berolsky.pdf"}>
             <ion-icon name="download-outline"></ion-icon> <span>Download Resume</span>
