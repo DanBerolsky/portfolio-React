@@ -40,7 +40,7 @@ const Avatar = () => {
           <div className='avatar-card__info'>
           <span role="img" aria-labelledby="cohete">🚀</span> Software Engineer | Open Source Enthusiast | Vue.js | Python | Kotlin | AWS | React | Node.js <span role="img" aria-labelledby="cohete">🚀</span>
           </div>
-          <a href='../assets/{Currículum Dan Berolsky.pdf}' className='btn-blue btn-resume' download={"Currículum Dan Berolsky.pdf"}>
+          <a href="./Currículum-Dan-Berolsky.pdf" className='btn-blue btn-resume' download="Currículum-Dan-Berolsky.pdf">
             <ion-icon name="download-outline"></ion-icon> <span>Download Resume</span>
           </a>
       </div>
