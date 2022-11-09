@@ -85,7 +85,7 @@
         align-self: flex-start;
     }
     
-    .avatar-card__background-image ion-icon{
+    .avatar-card__background-image span{
         right: 20px;
         left: auto;
     }

@@ -42,7 +42,7 @@ const Avatar = () => {
           <span role="img" aria-labelledby="cohete">🚀</span> Software Engineer | Open Source Enthusiast | Vue.js | Python | Kotlin | AWS | React | Node.js <span role="img" aria-labelledby="cohete">🚀</span>
           </div>
           <a href="./Currículum-Dan-Berolsky.pdf" className='btn-blue btn-resume' download="Currículum-Dan-Berolsky.pdf">
-            <span className="material-symbols-outlined">downloading</span> <span>Download Resume</span>
+            <span className="material-symbols-rounded">download</span> <span>Download Resume</span>
           </a>
       </div>
   );
