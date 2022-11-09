@@ -24,7 +24,7 @@ const Info = () => {
                 <div className='info-card__item-container'>
                     <div>Github :</div>
                     <div>
-                        <a className='contact-link' href="https://github.com/DanBerolsky"><span>&nbsp;</span></a>
+                        <a className='contact-link' aria-label="Github" href="https://github.com/DanBerolsky"><span>&nbsp;</span></a>
                         <ion-icon className='link-icon' name="link-outline"></ion-icon>
                         <div>DanBerolsky</div>
                     </div>
@@ -35,7 +35,7 @@ const Info = () => {
                 <div className='info-card__item-container'>
                     <div>LinkedIn :</div>
                     <div>
-                        <a className='contact-link' href="https://www.linkedin.com/in/dan-berolsky/"><span>&nbsp;</span></a>
+                        <a className='contact-link' aria-label="Linkedin" href="https://www.linkedin.com/in/dan-berolsky/"><span>&nbsp;</span></a>
                         <ion-icon name="link-outline" className='link-icon'></ion-icon>
                         <div>Dan Berolsky</div>
                     </div>
@@ -53,7 +53,7 @@ const Info = () => {
                 <div className='info-card__item-container'>
                     <div>Email :</div>
                     <div>
-                        <a className='contact-link' href={goToGmail()}><span>&nbsp;</span></a>
+                        <a className='contact-link' aria-label="Gmail" href={goToGmail()}><span>&nbsp;</span></a>
                         <ion-icon className='link-icon' name="link-outline"></ion-icon>
                         <div>berolskydan@gmail.com</div>
                     </div>

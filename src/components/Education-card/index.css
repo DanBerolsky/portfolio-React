@@ -1,6 +1,6 @@
 .education-card{
     padding: 1.5rem;
-    height: fit-content;
+    height: 100%;
     grid-row: 4;
 }
 

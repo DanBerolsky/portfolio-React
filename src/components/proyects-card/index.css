@@ -1,7 +1,7 @@
 .proyects-card{
-    height: 98.69%;
+    height: 100%;
     grid-column: 2/ span 2;
-    grid-row: 2/span 4;
+    grid-row: 2/span 3;
 
 }
 
