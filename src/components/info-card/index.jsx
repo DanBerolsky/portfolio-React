@@ -45,7 +45,7 @@ const Info = () => {
                 <div className='info-card__item-container'>
                     <div>Email :</div>
                     <div>
-                        <a className='contact-link' href="https://mail.google.com/mail/?view=cm&fs=1&to=berolskydan@gmail.com"></a>
+                        <a className='contact-link' href="mailto:berolskydan@gmail.com"></a>
                         <ion-icon className='link-icon' name="link-outline"></ion-icon>
                         <div>berolskydan@gmail.com</div>
                     </div>
