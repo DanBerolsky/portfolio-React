@@ -11,10 +11,18 @@
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+  },
+  {
+      "src": "/mstile-150x150.png",
+      "sizes": "270x270",
+      "type": "image/png",
+      "purpose": "maskable"
   }
   ],
   "start_url": ".",
   "display": "standalone",
+  "description": "Portfolio",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "prefer_related_applications": false
 }
