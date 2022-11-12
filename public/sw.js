@@ -21,7 +21,8 @@ const precachedAssets =[
     "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0&display=swap",
     "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=swap",
     "/index.html",
-    "/favicon.ico"
+    "/favicon.ico",
+    "/"
 ];
 self.addEventListener("install", event=>{
     // console.log("install : /n"+event)
