@@ -2,7 +2,6 @@
 const CACHE_STATIC_NAME = "static-v1";
 
 const precachedAssets =[
-    "/",
     "https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap",
     "https://unpkg.com/ionicons@5.5.2/dist/ionicons/svg/star-outline.svg",
     "https://unpkg.com/ionicons@5.5.2/dist/ionicons/svg/git-branch-sharp.svg",
@@ -14,7 +13,6 @@ const precachedAssets =[
     "https://unpkg.com/ionicons@5.5.2/dist/ionicons/svg/location-sharp.svg",
     "https://unpkg.com/ionicons@5.5.2/dist/ionicons/svg/mail-sharp.svg",
    "/favicon-32x32.png",
-    "/manifest.json",
     "/android-chrome-192x192.png",
     "/back.png",
     "/img.avif",
