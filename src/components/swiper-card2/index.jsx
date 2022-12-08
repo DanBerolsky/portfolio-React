@@ -29,11 +29,11 @@ export default function App() {
           clickable: true,
         }}
         autoplay={{
-          delay: 4400,
+          delay: 4600,
           disableOnInteraction: false,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         style={{
           "--swiper-navigation-color": "#da0808",
           "--swiper-pagination-color": "#bd6bff",
