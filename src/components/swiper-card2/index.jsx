@@ -33,7 +33,7 @@ export default function App() {
           disableOnInteraction: false,
         }}
         navigation={true}
-        modules={[Pagination, Navigation, Autoplay]}
+        modules={[Pagination, Navigation]}
         style={{
           "--swiper-navigation-color": "#da0808",
           "--swiper-pagination-color": "#bd6bff",
@@ -47,7 +47,7 @@ export default function App() {
           if(filename.includes(".mp4"))
             return (
           <SwiperSlide key={index}>
-            <video width="320" height="240" autoPlay playsInline muted loop style={{height: "100%"}}>
+            <video width="100%" height="100%" autoPlay playsInline muted loop >
               <source src={filename} type="video/mp4"/>
               Your browser doesn't support HTML video.
             </video>
