@@ -39,7 +39,6 @@ const SwiperCard = () => {
           navigation={true}
           modules={[Autoplay, Parallax, Pagination, Navigation]}
           className="mySwiper"
-          
         >
           <div
           slot="container-start"

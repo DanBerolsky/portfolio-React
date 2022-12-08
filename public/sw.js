@@ -21,12 +21,8 @@ const precachedAssets =[
     "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=swap",
     "/index.html",
     "/favicon.ico",
-    "https://portfolio-react-five-lac.vercel.app/static/js/1.c1bdf7b3.chunk.js",
-    "https://portfolio-react-five-lac.vercel.app/static/css/1.b9f3afd3.chunk.css",
-    "https://portfolio-react-five-lac.vercel.app/static/css/main.f7aae78c.chunk.css",
-    "https://portfolio-react-five-lac.vercel.app/",
-    "https://portfolio-react-five-lac.vercel.app/static/js/main.db663b14.chunk.js",
-    "https://portfolio-react-five-lac.vercel.app/manifest.json"
+    "/manifest.json",
+    "/src/components"
     
 ];
 self.addEventListener("install", event=>{

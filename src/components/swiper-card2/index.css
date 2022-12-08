@@ -1,0 +1,70 @@
+.swiper-card{
+  grid-column: 2/4;
+  grid-row: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: min-content;
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+  padding: 10px 30px 40px;
+}
+.swiper-slide img{
+  object-fit: scale-down !important;
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: var(--card-color);
+  font-weight: 600;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+  border-radius: 50%;
+  padding: 20px;
+  background: var(--body-color);
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover{
+  background: rgba(255, 255, 255, 0.326);
+}
+.swiper-button-prev::after,.swiper-button-next::after {
+  color: var(--light-blue);
+}
+
+.swiper-button-prev:active,.swiper-button-next:active {
+  outline: 3px solid var(--light-blue);
+}
+
+@media (max-width:1130px) {
+  .swiper-card{
+      grid-column: 1 !important;
+      grid-row: 5 !important;
+  }
+}

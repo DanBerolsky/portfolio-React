@@ -5,7 +5,8 @@ import Education from './Education-card'
 import Info from './info-card'
 import Proyects from './proyects-card'
 import TechStack from './tech-stack-card'
-import SwiperCard from './swiper-card'
+import SwiperCard from './swiper-card2'
+
 export function App() {
   return (
     <div className='mainConteiner'>
