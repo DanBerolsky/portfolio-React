@@ -22,7 +22,8 @@ const precachedAssets =[
     "/index.html",
     "/favicon.ico",
     "/manifest.json",
-    "/src/components"
+    "/src/components",
+    "/static/media/"
     
 ];
 self.addEventListener("install", event=>{
