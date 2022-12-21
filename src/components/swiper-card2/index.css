@@ -5,6 +5,10 @@
   display: flex;
   align-items: center;
   height: min-content;
+  animation-name: rightCard;
+  animation-iteration-count: 1;
+  animation-duration: 600ms;
+  animation-direction: reverse;
 }
 
 .swiper {
@@ -65,6 +69,7 @@
 
 @media (max-width:1130px) {
   .swiper-card{
+      animation-name: leftCard;
       grid-column: 1 !important;
       grid-row: 5 !important;
   }

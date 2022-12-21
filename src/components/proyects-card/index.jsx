@@ -3,6 +3,14 @@ import './index.css';
 import ProyectItem from './item.jsx'
 import axios from 'axios';
 //import { render } from 'react-dom';
+import ReactGA from 'react-ga4';
+
+const seeAllEvent = ()=>{
+    ReactGA.event({
+        category: 'seeAllEvent',
+        action: 'seeAllEvent',
+      }); 
+}
 
 
 const Proyects = () => {
@@ -30,7 +38,7 @@ const Proyects = () => {
         axios.get(colorsUrl)
             .then(colorsRes => {
                 setRepositorieColors(colorsRes)
-            }).catch(err => console.log(err.message))
+            }).catch(err => err.message)
         
     }
 
@@ -66,11 +74,11 @@ const Proyects = () => {
     return (
         <div className="proyects-card card">
             <div className='head-container'>
-                <h5>My GitHub proyects</h5>
-                <a href="https://github.com/DanBerolsky?tab=repositories">See All</a>
+                <h5>GitHub Proyects</h5>
+                <a onClick={seeAllEvent} target="blank" href="https://github.com/DanBerolsky?tab=repositories">See All</a>
             </div>
             <div className='proyects'>
-                {repositories.length === 0 && <p>x</p>}
+                {repositories.length === 0 && <p></p>}
                 {     
                     repositories.map((item, i) => {
                         item.key = i

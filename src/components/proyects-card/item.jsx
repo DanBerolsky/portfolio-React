@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import ReactGA from 'react-ga4';
+
+const itemProyectEvent = (repoName)=>{
+    ReactGA.event({
+        category: 'itemProyectEvent'+repoName,
+        action: 'itemProyectEvent'+repoName,
+        label: repoName,
+      }); 
+}
 
 function item(props) {
     return (
-        <a href={props.html_url} className='proyects__item card'>
+        <a onClick={()=>itemProyectEvent(props.name)} target="blank" href={props.html_url} className='proyects__item card'>
             <div>
                 <div className='proyects__item-title-container'>
                     <ion-icon name="folder-open-outline"></ion-icon>

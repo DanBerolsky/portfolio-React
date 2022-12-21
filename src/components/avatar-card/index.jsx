@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import './index.css'
+import ReactGA from 'react-ga4';
 
 const Avatar = () => {
 
@@ -7,6 +8,12 @@ const Avatar = () => {
   const [iconligthState, SeticonligthState] = useState("dark_mode");
   
   const toggleTheme = () => {
+    ReactGA.event({
+      category: 'Dark_Mode',
+      action: 'toggle_Theme',
+      label: iconligthState,
+    });  
+
       let cardColor     = '#fff';
       let bodyColor     = '#e5e7eb';
       let textPrimary   = '#000';
@@ -29,6 +36,13 @@ const Avatar = () => {
 
   };
   
+  const downloadResume = ()=>{
+    console.log("downloadResume");
+    ReactGA.event({
+      category: 'downloadResume',
+      action: 'BtnDownloadResume',
+    }); 
+  }   
 
   return (
       <div className="avatar-card card">
@@ -41,7 +55,7 @@ const Avatar = () => {
           <div className='avatar-card__info'>
           <span role="img" aria-labelledby="cohete">🚀</span> Software Engineer | Open Source Enthusiast | Vue.js | Python | Kotlin | AWS | React | Node.js <span role="img" aria-labelledby="cohete">🚀</span>
           </div>
-          <a href="./Currículum-Dan-Berolsky.pdf" className='btn-blue btn-resume' download="Currículum-Dan-Berolsky.pdf">
+          <a href="./Currículum-Dan-Berolsky.pdf" onClick={downloadResume} className='btn-blue btn-resume' download="Currículum-Dan-Berolsky.pdf">
             <span className="material-symbols-rounded">download</span> <span>Download Resume</span>
           </a>
       </div>

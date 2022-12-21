@@ -3,6 +3,10 @@
     padding: 1.5rem;
     height: 100%;
     position: relative;
+    animation-name: leftCard;
+    animation-iteration-count: 1;
+    animation-duration: 600ms;
+    animation-direction: reverse;
 }
 
 .tech-card__title{

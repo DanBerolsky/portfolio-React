@@ -38,6 +38,11 @@ a{
         grid-template-columns: repeat(1, 100%);
         grid-template-rows: repeat(auto-fit,minmax(100px, max-content));
     }
+    @keyframes leftCard {
+        to{
+            transform: translate(20px);       
+        }
+    }
 }
 
 .btn-blue{
@@ -59,4 +64,17 @@ a{
     background-color: var(--card-color);
     box-shadow: 0 0 20px -4px rgb(0 0 0 / .1), 0 0 6px -4px rgb(0 0 0 / .1);
     overflow: hidden;
+}
+
+@keyframes leftCard {
+    to{
+        opacity: .1;
+        transform: translate(-30px);       
+    }
+}
+@keyframes rightCard {
+    to{
+        opacity: .1;
+        transform: translate(30px);       
+    }
 }

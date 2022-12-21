@@ -2,7 +2,10 @@
     height: 100%;
     grid-column: 2/ span 2;
     grid-row: 2/span 3;
-
+    animation-name: rightCard;
+    animation-iteration-count: 1;
+    animation-duration: 600ms;
+    animation-direction: reverse;
 }
 
 .head-container{
@@ -96,7 +99,7 @@
     margin: 0;
 }
 .item__proyect-branches span{
-    margin: 0 10px 0 4px;
+    margin: 0 5px 0 4px;
     position: relative;
     top: -3px;
     color: var(--text-secondary-color);

@@ -5,7 +5,10 @@
     justify-content: space-around;
     grid-row: 2;
     min-height: 250px;
-
+    animation-name: leftCard;
+    animation-iteration-count: 1;
+    animation-duration: 600ms;
+    animation-direction: reverse;
 }
 
 .info-card__item{
@@ -60,7 +63,7 @@ ion-icon{
 }
 
 
-@media (max-width:1130px) {
+@media (max-width:1130px) {  
 
     .info-card{
         height: 310px;
