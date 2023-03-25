@@ -37,7 +37,7 @@ const Avatar = () => {
   };
   
   const downloadResume = ()=>{
-    console.log("downloadResume");
+    //console.log("downloadResume");
     ReactGA.event({
       category: 'downloadResume',
       action: 'BtnDownloadResume',
